@@ -7,7 +7,7 @@ fi
 
 apt update
 apt upgrade -y
-apt install -y nano screen python3-dev python3-pip python3-setuptools build-essential htop iftop
+apt install -y python3-dev python3-pip python3-setuptools
 python3 -m pip install thefuck
 
 #Install ROS
